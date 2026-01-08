@@ -579,6 +579,327 @@ export const CONFLICT_TRANSLATIONS: Record<string, ConflictTranslation> = {
     }
   },
 
+  // ========================================================================
+  // INNOCENT vs MAGICIAN - Stabilità vs Trasformazione
+  // ========================================================================
+  'innocent-magician': {
+    patterns: ['innocent', 'magician'],
+    ontologicalNature: 'D2 (Planare-Stabile) + A2 (Relazione-Preservazione) vs D4 (Temporale-Trasformativo) + A3 (Processo)',
+    translations: {
+      structuralNature: `
+        Conflitto tra CONSERVAZIONE vs TRASFORMAZIONE.
+
+        ${personLabel('A')} opera cercando STABILITÀ CICLICA: mantenere pattern
+        familiari, preservare ciò che funziona, evitare cambiamenti che rompono
+        l'equilibrio. Opera in spazio D2 dove i cicli stabili sono sicurezza.
+
+        ${personLabel('B')} opera cercando METAMORFOSI CAUSALE: trasformare
+        profondamente, evolvere oltre i limiti attuali, creare nuove possibilità.
+        Opera in spazio D4 dove il cambiamento è crescita necessaria.
+
+        Non è "spaventato vs coraggioso". È "conservazione vs evoluzione".
+      `,
+      whyConflict: `
+        ${personLabel('A')} vive ogni trasformazione come MINACCIA alla stabilità.
+        Quando ${personLabel('B')} dice "dobbiamo cambiare", ${personLabel('A')}
+        sente "perderò tutto ciò che mi fa sentire sicuro".
+
+        ${personLabel('B')} vive ogni resistenza come BLOCCO alla crescita.
+        Quando ${personLabel('A')} dice "andiamo piano", ${personLabel('B')}
+        sente "mi stai impedendo di evolvere".
+
+        State operando su scale temporali diverse: ${personLabel('A')} misura in
+        cicli ripetuti, ${personLabel('B')} misura in fasi di crescita.
+      `,
+      whatASeesInB: `
+        ${personLabel('A')} vede ${personLabel('B')} come "pericoloso, che mette
+        a rischio tutto, che vuole rompere ciò che funziona, instabile".
+
+        MA non è vero: ${personLabel('B')} NON è instabile - sta navigando
+        trasformazioni necessarie. La sua "irrequietezza" è intelligenza evolutiva.
+      `,
+      whatBSeesInA: `
+        ${personLabel('B')} vede ${personLabel('A')} come "rigido, che si
+        aggrappa al passato, che ha paura di crescere, limitato".
+
+        MA non è vero: ${personLabel('A')} NON è limitato - sta proteggendo
+        fondamenta necessarie. La sua "cautela" è saggezza della continuità.
+      `,
+      escalationPattern: `
+        Loop prevedibile:
+        1. ${personLabel('B')} propone trasformazione → ${personLabel('A')}
+           sente minaccia alla sicurezza
+        2. ${personLabel('A')} frena → ${personLabel('B')} sente frustrazione
+        3. ${personLabel('B')} insiste più forte → ${personLabel('A')}
+           si chiude di più
+        4. Spirale con ${personLabel('A')} sempre più "difensivo" e
+           ${personLabel('B')} sempre più "spazientito"
+
+        PREDIZIONE: Finirete con ${personLabel('A')} che blocca ogni cambiamento
+        e ${personLabel('B')} che opera cambiamenti drastici senza preparazione.
+      `,
+      bridgeStrategy: `
+        La soluzione è TRASFORMAZIONE GRADUALE con PUNTI FERMI:
+
+        → ${personLabel('B')}: riconosci che ${personLabel('A')} ha bisogno di:
+          • CONTINUITÀ durante il cambiamento (non tutto cambia insieme)
+          • PREVEDIBILITÀ del processo (sapere cosa aspettarsi)
+          • SICUREZZA che alcune cose restano stabili
+
+        → ${personLabel('A')}: riconosci che ${personLabel('B')} ha bisogno di:
+          • SPAZIO per sperimentare nuove possibilità
+          • FIDUCIA che la trasformazione porta crescita, non caos
+          • PERMESSO di evolvere senza sentirti abbandonato
+
+        → METODO:
+          1. Identificate 2-3 "ANCORE" che non cambiano (rituali, valori, spazi)
+          2. Definite UNA SOLA area di sperimentazione alla volta
+          3. ${personLabel('B')} guida la trasformazione in quella zona
+          4. ${personLabel('A')} mantiene stabilità nelle altre
+          5. Integrate il cambiamento prima di procedere
+
+        Non è "cambiare tutto vs non cambiare niente" - è crescita con radici.
+      `,
+      bridgePhrases: {
+        forA: [
+          `Quando ${personLabel('B')} vuole cambiare, NON significa "butto via
+          tutto". Significa "voglio espandere ciò che siamo". Il cambiamento
+          include ciò che funziona, non lo elimina.`,
+
+          `Prova: "Ok, cambiamo. Ma dimmi: quali 3 cose possiamo tenere ferme
+          mentre trasformiamo il resto? Ho bisogno di queste ancore per sentirti
+          al sicuro nel processo."`,
+        ],
+        forB: [
+          `Quando ${personLabel('A')} ha paura, NON significa "non voglio
+          crescere". Significa "ho bisogno di sapere che non perderò tutto".
+          La sua cautela protegge fondamenta preziose.`,
+
+          `Prova: "Capisco che hai bisogno di stabilità. Quali sono le 3 cose
+          che non toccherò mai? Su tutto il resto, dammi spazio per far evolvere
+          la nostra situazione. Con quelle ancore, possiamo trasformare molto."`,
+        ]
+      }
+    }
+  },
+
+  // ========================================================================
+  // CAREGIVER vs EXPLORER - Protezione vs Autonomia
+  // ========================================================================
+  'caregiver-explorer': {
+    patterns: ['caregiver', 'explorer'],
+    ontologicalNature: 'D3 (Volumetrica-Protettiva) + A2 (Relazione-Cura) vs D2 (Planare-Libera) + A1 (Distinzione)',
+    translations: {
+      structuralNature: `
+        Conflitto tra PROTEZIONE RELAZIONALE vs LIBERTÀ DI MOVIMENTO.
+
+        ${personLabel('A')} opera in SPAZIO VOLUMETRICO-PROTETTIVO: monitora
+        il benessere dell'altro, anticipa bisogni, crea strutture di supporto.
+        La cura richiede presenza, attenzione, responsabilità relazionale.
+
+        ${personLabel('B')} opera in SPAZIO PLANARE-ESPLORATIVO: cerca gradi
+        di libertà, movimento senza vincoli, autonomia decisionale. L'esplorazione
+        richiede distanza, indipendenza, responsabilità individuale.
+
+        Non è "amore vs egoismo". È "interdipendenza vs autonomia".
+      `,
+      whyConflict: `
+        ${personLabel('A')} vede la cura come ESPRESSIONE D'AMORE. Quando cura
+        ${personLabel('B')}, sta dicendo "mi importi, ti proteggo".
+
+        ${personLabel('B')} vede la cura come LIMITAZIONE DELLA LIBERTÀ. Quando
+        ${personLabel('A')} protegge, ${personLabel('B')} sente "non mi fidi,
+        mi controlli".
+
+        Stesso gesto, decodifiche opposte. ${personLabel('A')} dà ciò che per
+        lui è amore, ${personLabel('B')} riceve ciò che per lui è soffocamento.
+      `,
+      whatASeesInB: `
+        ${personLabel('A')} vede ${personLabel('B')} come "egoista, che non
+        pensa agli altri, irresponsabile, che se ne va quando serve aiuto".
+
+        MA non è vero: ${personLabel('B')} È responsabile - verso se stesso.
+        La sua autonomia non è egoismo, è integrità individuale.
+      `,
+      whatBSeesInA: `
+        ${personLabel('B')} vede ${personLabel('A')} come "soffocante,
+        controllante, ansioso, che non mi lascia respirare, iperprotettivo".
+
+        MA non è vero: ${personLabel('A')} NON controlla - protegge. La sua
+        attenzione non è controllo, è dedizione.
+      `,
+      escalationPattern: `
+        Loop classico:
+        1. ${personLabel('A')} offre cura → ${personLabel('B')} la vive come
+           intrusione
+        2. ${personLabel('B')} si allontana → ${personLabel('A')} si preoccupa
+           di più
+        3. ${personLabel('A')} aumenta attenzioni → ${personLabel('B')} fugge
+           più lontano
+        4. ${personLabel('A')} diventa "ansioso" (terrorizzato di fallire come
+           caregiver), ${personLabel('B')} diventa "distante" (disperato per
+           ossigeno)
+
+        PREDIZIONE: Finirete in dinamica inseguitore-fuggitivo dove ${personLabel('A')}
+        si esaurisce curando chi non vuole essere curato, ${personLabel('B')}
+        si isola per proteggersi da cure non richieste.
+      `,
+      bridgeStrategy: `
+        La soluzione è NEGOZIARE ZONE DI AUTONOMIA vs ZONE DI SUPPORTO:
+
+        → ${personLabel('A')}: la tua cura è preziosa, MA deve essere RICHIESTA,
+          non imposta. Domanda chiave: "Di cosa hai bisogno da me?" non "Cosa
+          penso tu abbia bisogno?"
+
+        → ${personLabel('B')}: la tua autonomia è legittima, MA riconosci che
+          ${personLabel('A')} esprime amore attraverso cura. Domanda chiave:
+          "Come posso fartic sentire che mi importi senza limitarti?"
+
+        → METODO PRATICO:
+          • ${personLabel('B')} definisce ZONE OFF-LIMITS (decisioni, spazi,
+            tempi dove vuole autonomia totale)
+          • ${personLabel('A')} si ritira completamente da quelle zone
+          • ${personLabel('B')} definisce ZONE dove accetta supporto volentieri
+          • ${personLabel('A')} offre cura generosa in quelle zone
+          • Periodicamente: rinegoziare confini se cambiano bisogni
+
+        Non è "curare tutto vs curare niente" - è cura dove serve, spazio dove serve.
+      `,
+      bridgePhrases: {
+        forA: [
+          `Quando ${personLabel('B')} rifiuta il tuo aiuto, NON significa "non
+          mi importi di te". Significa "in questo momento ho bisogno di fare da
+          solo per sentirmi integro". La tua cura è preziosa dove è desiderata.`,
+
+          `Prova: "Dimmi chiaramente: in quali aree della tua vita vuoi il mio
+          supporto? In quali vuoi totale autonomia? Ti prometto di rispettare
+          i confini, ma quando mi chiedi aiuto, sono qui al 100%."`,
+        ],
+        forB: [
+          `Quando ${personLabel('A')} si preoccupa, NON significa "penso che
+          sei incapace". Significa "esprimo amore attraverso cura e quando ti
+          vedo lottare, voglio aiutarti". È il suo linguaggio d'amore.`,
+
+          `Prova: "Apprezzo che ti importi. Ecco cosa mi aiuta davvero: [lista
+          specifica]. Su tutto il resto, fidati che me la cavo. Quando ho bisogno,
+          ti chiamo. Ma sapere che ci sei mi basta per sentirmi sicuro."`,
+        ]
+      }
+    }
+  },
+
+  // ========================================================================
+  // CREATOR vs EVERYMAN - Unicità vs Appartenenza
+  // ========================================================================
+  'creator-everyman': {
+    patterns: ['creator', 'everyman'],
+    ontologicalNature: 'D3 (Volumetrica-Creativa) + A3 (Processo-Innovazione) vs D2 (Planare-Comunitaria) + A2 (Relazione)',
+    translations: {
+      structuralNature: `
+        Conflitto tra DIFFERENZIAZIONE CREATIVA vs INTEGRAZIONE COMUNITARIA.
+
+        ${personLabel('A')} opera creando DISTINZIONE UNICA: vuole esprimere
+        visione originale, creare qualcosa che non esiste, distinguersi. Opera
+        in spazio D3 dove la creazione richiede elevarsi sopra il comune.
+
+        ${personLabel('B')} opera cercando INTEGRAZIONE COMUNITARIA: vuole
+        appartenere, sentirsi parte del gruppo, condividere valori comuni. Opera
+        in spazio D2 dove l'appartenenza richiede somiglianza.
+
+        Non è "genio vs mediocre". È "differenziazione vs integrazione".
+      `,
+      whyConflict: `
+        ${personLabel('A')} sente che DISTINGUERSI = VALORE. "Se non creo
+        qualcosa di unico, che senso ha?"
+
+        ${personLabel('B')} sente che APPARTENERE = VALORE. "Se non sono parte
+        del gruppo, chi sono?"
+
+        Quando ${personLabel('A')} crea qualcosa di diverso, ${personLabel('B')}
+        sente "mi stai escludendo, ci stai rendendo strani". Quando ${personLabel('B')}
+        vuole conformarsi, ${personLabel('A')} sente "stai soffocando la mia unicità".
+
+        State misurando il valore su assi ortogonali: unicità vs appartenenza.
+      `,
+      whatASeesInB: `
+        ${personLabel('A')} vede ${personLabel('B')} come "conformista, che ha
+        paura di distinguersi, che soffoca la creatività, mediocre".
+
+        MA non è vero: ${personLabel('B')} NON è mediocre - valuta connessione
+        comunitaria sopra distinzione individuale. È una scelta, non una mancanza.
+      `,
+      whatBSeesInA: `
+        ${personLabel('B')} vede ${personLabel('A')} come "strano, che complica
+        tutto, che ci isola dagli altri, che pensa di essere speciale".
+
+        MA non è vero: ${personLabel('A')} NON cerca superiorità - cerca
+        autenticità. La sua unicità non è arroganza, è espressione necessaria.
+      `,
+      escalationPattern: `
+        Loop tipico:
+        1. ${personLabel('A')} crea qualcosa di diverso → ${personLabel('B')}
+           sente "ci stai rendendo strani"
+        2. ${personLabel('B')} chiede normalità → ${personLabel('A')} sente
+           "mi stai soffocando"
+        3. ${personLabel('A')} si differenzia di più → ${personLabel('B')}
+           si isola dal gruppo
+        4. ${personLabel('B')} si vergogna → ${personLabel('A')} si sente
+           non compreso
+
+        PREDIZIONE: ${personLabel('A')} diventerà sempre più "estremo" (cercando
+        disperatamente espressione), ${personLabel('B')} sempre più "ansioso
+        socialmente" (cercando disperatamente accettazione).
+      `,
+      bridgeStrategy: `
+        La soluzione è ZONE DI ESPRESSIONE vs ZONE DI INTEGRAZIONE:
+
+        → Identificate AMBITI PRIVATI dove ${personLabel('A')} può creare
+          liberamente:
+          • Progetti personali
+          • Spazi creativi individuali
+          • Espressione artistica
+          • Sperimentazione
+
+          In questi ambiti: ${personLabel('B')} celebra senza giudicare
+
+        → Identificate AMBITI CONDIVISI dove servono ponti con comunità:
+          • Eventi sociali
+          • Relazioni familiari
+          • Contesti professionali
+          • Vita quotidiana
+
+          In questi ambiti: ${personLabel('A')} trova modi di essere autentico
+          DENTRO i codici sociali (non contro)
+
+        → LA CHIAVE: ${personLabel('A')} può essere unico nei contenuti pur
+          rispettando forme sociali. ${personLabel('B')} può appartenere a
+          comunità senza sacrificare autenticità del partner.
+
+        Non si escludono - richiedono negoziazione su dove applicare quale valore.
+      `,
+      bridgePhrases: {
+        forA: [
+          `Quando ${personLabel('B')} chiede "normalità", NON significa "rinuncia
+          a te stesso". Significa "nei contesti sociali, aiutami a sentirmi
+          parte del gruppo". Puoi essere unico E rispettare codici sociali.`,
+
+          `Prova: "Ok, in pubblico adattiamo la forma per aiutarti a sentirti
+          a tuo agio. In privato, mi lasci totale libertà creativa? Così ho
+          entrambi: espressione E connessione con te."`,
+        ],
+        forB: [
+          `Quando ${personLabel('A')} crea qualcosa di diverso, NON significa
+          "non mi importa come ti senti". Significa "ho bisogno di esprimere
+          qualcosa di unico per sentirmi vivo". Non è contro di te.`,
+
+          `Prova: "Capisco che hai bisogno di creare. Separiamo: nei tuoi spazi
+          personali, crea liberamente. Quando siamo con altri, troviamo modi
+          di essere autentici E accettabili socialmente. Entrambi importanti."`,
+        ]
+      }
+    }
+  },
+
 }
 
 // Helper function for person labels
